@@ -11,18 +11,82 @@ body {
 }
 
 .header-setup {
-  height: 400px;
-  background-color: blue;
-}
-.container {
-  width: 80%;
-  margin: auto;
+  background-color: #0c325a;
 }
 
 .nav-setup {
   width: 80%;
-  height: 100px;
-  background-color: red;
+
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li:first-child{
+  padding-right: 40px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  padding-right: 20px;
+}
+
+#right-fix {
+  margin-right: 90px;
+}
+
+nav ul li:last-child {
+  margin-left: 40px;
+}
+
+.button-login {
+  background-color: #0c325a;
+  border: 1px solid white;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.button-structure {
+  width: 150px;
+  height: 30px;
+  background-color: #7cbb02;
+  border-radius: 5px;
+  color: white;
+}
+
+.background {
+  height: 300px;
+  background-image: url(../img/background-header.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+}
+
+.title {
+  width: 50%;
+  font-size: 20px;
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  color: white;
+}
+
+#fix2 {
+height: 50px;
+position: absolute;
+margin-top: 2%;
 }
 
 .section1-setup {
