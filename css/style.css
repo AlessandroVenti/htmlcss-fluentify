@@ -140,7 +140,11 @@ section div h3, section div p{
 }
 
 .hr {
-  border-top: 3px solid #d3d3d3;
+  border-top: 1px solid #d3d3d3;
+}
+
+.margin-up-and-down {
+  margin: 2% 0;
 }
 
 .image2 {
@@ -173,4 +177,23 @@ section div h3, section div p{
 .right {
   margin-left: 2%;
   text-align: left;
+}
+
+.relative {
+  height: 100px;
+  position: relative;
+}
+
+.text-footer {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+.selection-footer {
+  position: absolute;
+  right: 8%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
