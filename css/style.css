@@ -10,7 +10,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.header-setup {
+header {
   background-color: #0c325a;
 }
 
@@ -77,13 +77,13 @@ nav ul li:last-child {
 }
 
 #fix2 {
-height: 50px;
-position: absolute;
-margin-top: 2%;
+  height: 50px;
+  position: absolute;
+  margin-top: 2%;
 }
 
-.section1-setup {
-background-color: #d3d3d3;
+.section-background {
+  background-color: #d3d3d3;
 }
 
 section div h2 {
@@ -98,7 +98,7 @@ section div h3, section div p{
   padding-bottom: 2%;
 }
 
-.section2-setup {
+.section-center-aligne {
   text-align: center;
 }
 
@@ -112,7 +112,7 @@ section div h3, section div p{
   float: left;
 }
 
-.aside {
+.aside-width {
   width: 32%;
 }
 
@@ -127,16 +127,16 @@ section div h3, section div p{
   font-size: 32px;
 }
 
-.line {
+.short-width {
   width: 20%;
   margin: 2% auto;
 }
 
-.hr {
+.short-line {
   border-top: 1px solid #d3d3d3;
 }
 
-.center {
+.center-width {
   width: 32%;
   margin: 0 2%;
 }
@@ -149,11 +149,11 @@ section div h3, section div p{
   height: 400px;
 }
 
-.left {
+.aside2 {
   width: 49%;
 }
 
-.right {
+.position-add {
   margin-left: 2%;
   text-align: left;
 }
