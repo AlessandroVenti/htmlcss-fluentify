@@ -90,8 +90,19 @@ margin-top: 2%;
 }
 
 .section1-setup {
-height: 100px;
-background-color: grey;
+background-color: #d3d3d3;
+}
+
+section div h2 {
+  text-align: center;
+  padding-top: 2%;
+}
+
+section div h3{
+  text-align: center;
+  padding-top: 0.5%;
+  color: #808080;
+  padding-bottom: 2%;
 }
 
 .section2-setup {
