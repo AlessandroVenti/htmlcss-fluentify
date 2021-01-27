@@ -98,7 +98,7 @@ section div h2 {
   padding-top: 2%;
 }
 
-section div h3{
+section div h3, section div p{
   text-align: center;
   padding-top: 0.5%;
   color: #808080;
@@ -106,26 +106,42 @@ section div h3{
 }
 
 .section2-setup {
-  height: 300px;
-  background-color: green;
+  text-align: center;
 }
 
 .clearfix:after{
-  content: "''";
+  content: '';
   display: table;
   clear: both;
 }
 
+.image {
+  margin-top: 3%;
+  width: auto;
+  height: 150px;
+}
+
 .float {
-  height: 290px;
   float: left;
-  background-color: yellow;
 }
 
 .aside {
   width: 32%;
 }
 
+.float h3 {
+  color: #7cbb02;
+  font-size: 32px;
+}
+
+.line {
+  width: 20%;
+  margin: 2% auto;
+}
+
+.hr {
+  border-top: 3px solid #d3d3d3;
+}
 .center {
   width: 32%;
   margin: 0 2%;
