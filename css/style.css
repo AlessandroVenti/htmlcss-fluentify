@@ -14,17 +14,10 @@ body {
   background-color: #0c325a;
 }
 
-.nav-setup {
-  width: 80%;
-
-}
-
 .container {
   width: 80%;
   margin: 0 auto;
 }
-
-
 
 nav ul li{
   display: inline-block;
@@ -40,12 +33,12 @@ nav ul li a{
   padding-right: 20px;
 }
 
-#right-fix {
-  margin-right: 90px;
-}
-
 nav ul li:last-child {
   margin-left: 40px;
+}
+
+#right-fix {
+  margin-right: 90px;
 }
 
 .button-login {
@@ -115,18 +108,18 @@ section div h3, section div p{
   clear: both;
 }
 
-.image {
-  margin-top: 3%;
-  width: auto;
-  height: 150px;
-}
-
 .float {
   float: left;
 }
 
 .aside {
   width: 32%;
+}
+
+.image {
+  margin-top: 3%;
+  width: auto;
+  height: 150px;
 }
 
 .float h3 {
@@ -143,12 +136,26 @@ section div h3, section div p{
   border-top: 1px solid #d3d3d3;
 }
 
+.center {
+  width: 32%;
+  margin: 0 2%;
+}
+
 .margin-up-and-down {
   margin: 2% 0;
 }
 
 .image2 {
   height: 400px;
+}
+
+.left {
+  width: 49%;
+}
+
+.right {
+  margin-left: 2%;
+  text-align: left;
 }
 
 #fix3 {
@@ -162,21 +169,6 @@ section div h3, section div p{
   text-align: left;
   font-size: 20px;
   margin-bottom: 2%;
-}
-
-.center {
-  width: 32%;
-  margin: 0 2%;
-}
-
-
-.left {
-  width: 49%;
-}
-
-.right {
-  margin-left: 2%;
-  text-align: left;
 }
 
 .relative {
