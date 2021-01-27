@@ -142,6 +142,24 @@ section div h3, section div p{
 .hr {
   border-top: 3px solid #d3d3d3;
 }
+
+.image2 {
+  height: 400px;
+}
+
+#fix3 {
+  width: 60%;
+  text-align: left;
+  color: black;
+}
+
+#fix4 {
+  width: 60%;
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 2%;
+}
+
 .center {
   width: 32%;
   margin: 0 2%;
@@ -154,4 +172,5 @@ section div h3, section div p{
 
 .right {
   margin-left: 2%;
+  text-align: left;
 }
