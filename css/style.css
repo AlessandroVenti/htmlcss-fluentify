@@ -4,3 +4,63 @@
   border: 0;
   box-sizing: border-box;
 }
+
+body {
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-setup {
+  height: 400px;
+  background-color: blue;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.nav-setup {
+  width: 80%;
+  height: 100px;
+  background-color: red;
+}
+
+.section1-setup {
+height: 100px;
+background-color: grey;
+}
+
+.section2-setup {
+  height: 300px;
+  background-color: green;
+}
+
+.clearfix:after{
+  content: "''";
+  display: table;
+  clear: both;
+}
+
+.float {
+  height: 290px;
+  float: left;
+  background-color: yellow;
+}
+
+.aside {
+  width: 32%;
+}
+
+.center {
+  width: 32%;
+  margin: 0 2%;
+}
+
+
+.left {
+  width: 49%;
+}
+
+.right {
+  margin-left: 2%;
+}
